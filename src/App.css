@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(182, 179, 179)
+  background-color:  #ecf0f1;
+  font-family: Montserrat;
 }
 
 .App {
@@ -9,18 +10,66 @@ body {
 .trasanction-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 2px solid black;
     margin-top: 10px;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 35%;
+    width: 30%;
   }
 
 .deposit {
-    color: green;
-    border-right: 2px solid black;
+    color: #37D67F;
 }
 
 .withdraw {
-  color: red;
-  border-right: 2px solid black;
+  color: #C6514F;
+}
+
+.input {
+  border: none;
+  margin-left: 5px;
+  height: 3vh;
+}
+
+.DepositB {
+  background-color: #37D67F;
+  width: 8%;
+  height: 30px;
+  margin-left: 1%;
+  margin-top: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Montserrat;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.WithdrawB {
+  background-color: #C6514F;
+  width: 8%;
+  height: 30px;
+  margin-left: 1%;
+  margin-top: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Montserrat;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.DepositB:hover {
+  background-color: rgb(78, 255, 158);
+}
+
+.WithdrawB:hover {
+  background-color: rgb(255, 106, 103);
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: #D1D1D1;
+  font-family: Montserrat;
+  font-size: 15px;
 }
